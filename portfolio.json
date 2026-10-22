@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "UNA UMass launch and speaker series",
+      "category": "Marketing",
+      "client": "UNA UMass",
+      "year": "2025",
+      "summary": "Building a new chapter's presence from zero through social media advocacy, recruitment and a six-event UN speaker series.",
+      "cover": "",
+      "links": []
+    },
+    {
+      "title": "Public opinion briefings",
+      "category": "Data",
+      "client": "Lincoln Park Strategies",
+      "year": "2025",
+      "summary": "Client-ready reports that translate survey results across 15+ states into plain-language findings.",
+      "cover": "",
+      "links": []
+    },
+    {
+      "title": "Workflow redesign roadmap",
+      "category": "Consulting",
+      "client": "IFSI",
+      "year": "2025",
+      "summary": "An executive presentation on how a nonprofit serving 2,000+ immigrant families could streamline its operations.",
+      "cover": "",
+      "links": []
+    },
+    {
+      "title": "Final recommendation deck",
+      "category": "Consulting",
+      "client": "BUILD Collab",
+      "year": "2026",
+      "summary": "The four-sprint story of a community resource app, from user research to recommendation.",
+      "cover": "",
+      "links": []
+    }
+  ]
+}

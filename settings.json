@@ -1,0 +1,27 @@
+{
+  "name": "Varija Manglik",
+  "tagline": "I turn messy data and big questions into stories people can act on.",
+  "intro": "Economics student at UMass Amherst. I work across research, consulting and policy, and I make art when nobody is paying me to.",
+  "location": "Amherst, Massachusetts",
+  "timezone": "America/New_York",
+  "email": "varijamanglik@gmail.com",
+  "linkedin": "",
+  "github": "",
+  "instagram": "",
+  "resume": "",
+  "booking_url": "",
+  "booking_note": "Coffee chats, project questions, art commissions. Pick a time that works for you.",
+  "open_to": "Internships in consulting, data analytics and policy research",
+  "now": [
+    "Testing the glass cliff theory with 25 years of NCAA coaching data",
+    "Leading a website build for DeyLight Health Foundation through 180 Degrees Consulting",
+    "Running a six-event UN speaker series as president of UNA UMass"
+  ],
+  "stats": [
+    { "value": "1,200+", "label": "NCAA coaches in my research dataset" },
+    { "value": "15+", "label": "states covered by surveys I designed" },
+    { "value": "5,000+", "label": "people the BUILD Collab app was designed for" },
+    { "value": "500+", "label": "students served by a food pantry I helped launch" }
+  ],
+  "hidden_sections": []
+}

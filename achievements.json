@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "title": "4.0 GPA", "issuer": "UMass Amherst", "date": "", "note": "Commonwealth Honors College", "link": "" },
+    { "title": "Chancellor's Award", "issuer": "UMass Amherst", "date": "", "note": "", "link": "" },
+    { "title": "Dean's List", "issuer": "UMass Amherst", "date": "", "note": "", "link": "" },
+    { "title": "Founded UMass's UNA-USA chapter", "issuer": "United Nations Association of the USA", "date": "2025", "note": "Approved as a registered student organization.", "link": "" },
+    { "title": "Applied certification in generative AI and LLMs", "issuer": "EXL", "date": "2025", "note": "40 hours, including prompt engineering across 5+ business use cases.", "link": "" },
+    { "title": "Helped launch a campus food pantry", "issuer": "CEPA", "date": "2025", "note": "Now serving 500+ students.", "link": "" }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "items": [
+    {
+      "title": "Research Assistant (Data Analytics)",
+      "org": "UMass Department of Management, CJLS",
+      "type": "Work",
+      "location": "Amherst, MA",
+      "start": "May 2026",
+      "end": "Present",
+      "summary": "Testing the glass cliff theory with 25+ years of archival data on NCAA Division I coaches.",
+      "highlights": [
+        "Coding, cleaning and structuring a dataset of 1,200+ NCAA Division I coaches across 20 sports and 25+ years.",
+        "Modeling team performance, turnover and leadership-risk indicators across 300+ athletic programs with faculty.",
+        "Evaluated a video-based HR curriculum (62 students, 12 teamwork measures). All 12 improved at p < .001, and I wrote the full research report."
+      ],
+      "tags": ["Research", "Statistics", "Data cleaning"],
+      "links": []
+    },
+    {
+      "title": "Data Analytics, Consulting and Policy Intern",
+      "org": "Lincoln Park Strategies and Trendency",
+      "type": "Work",
+      "location": "Washington, D.C. (SBS in DC)",
+      "start": "Sep 2025",
+      "end": "Dec 2025",
+      "summary": "Public opinion research for clients across 15+ states.",
+      "highlights": [
+        "Designed and analyzed surveys of 30 to 45 questions each, checking validity and demographic representativeness before reporting to clients.",
+        "Used Census, population and GDP data to put survey findings in context for articles and strategy briefings.",
+        "Wrote data-driven reports across 5+ concurrent client engagements for non-technical audiences."
+      ],
+      "tags": ["Survey design", "Public opinion", "Policy"],
+      "links": []
+    },
+    {
+      "title": "Analytics Intern",
+      "org": "EXL: Analytics, AI and Digital Solutions",
+      "type": "Work",
+      "location": "New York, NY",
+      "start": "Jun 2025",
+      "end": "Aug 2025",
+      "summary": "Benchmarked competitor dashboards, then designed and built one for a banking client.",
+      "highlights": [
+        "Benchmarked competitor dashboards to find the features and design patterns worth adopting.",
+        "Designed and built a dashboard for a banking client with AI-assisted development, surfacing insights that improved client decisions.",
+        "Completed a 40-hour applied certification in generative AI, LLMs and AI-enabled consulting."
+      ],
+      "tags": ["Dashboards", "Banking", "Generative AI"],
+      "links": []
+    },
+    {
+      "title": "Project Manager and Senior Analyst",
+      "org": "180 Degrees Consulting, UMass Amherst",
+      "type": "Work",
+      "location": "Amherst, MA",
+      "start": "Feb 2025",
+      "end": "Present",
+      "summary": "Pro bono consulting for nonprofits and social enterprises, from analyst to project manager.",
+      "highlights": [
+        "Fall 2026, PM for DeyLight Health Foundation: leading 3 analysts building a new website for a Bangladesh maternal and newborn health nonprofit.",
+        "Spring 2026, PM for BUILD Collab: led 3 analysts through 4 sprints to design a community resource app for 5,000+ users.",
+        "Spring 2026, recruitment team: sourced new clients and mentored junior analysts.",
+        "Fall 2025, Senior Analyst for IFSI: audited workflows for a nonprofit serving 2,000+ immigrant families and presented a redesign roadmap.",
+        "Spring 2025: completed the 9-week Analyst Accelerator Program."
+      ],
+      "tags": ["Consulting", "Project management", "Nonprofits"],
+      "links": []
+    },
+    {
+      "title": "Policy and Student Relations Specialist",
+      "org": "Center for Education Policy and Advocacy (CEPA)",
+      "type": "Work",
+      "location": "Amherst, MA",
+      "start": "Dec 2024",
+      "end": "Present",
+      "summary": "Research and advocacy on the issues that shape student life at UMass.",
+      "highlights": [
+        "Interviewed 10 to 15 student organizations to map budget barriers affecting 10,000+ students, then led the team to a published open letter.",
+        "Researched campus food insecurity, wrote policy recommendations, and helped launch a food pantry serving 500+ students.",
+        "Researching student activism strategies and building workshops and toolkits on using data to win policy change."
+      ],
+      "tags": ["Policy", "Advocacy", "Research"],
+      "links": []
+    },
+    {
+      "title": "Founder and President",
+      "org": "United Nations Association, UMass Chapter",
+      "type": "Leadership",
+      "location": "Amherst, MA",
+      "start": "Sep 2025",
+      "end": "Present",
+      "summary": "Founded the UMass chapter of UNA-USA and got it registered as a student organization.",
+      "highlights": [
+        "Built a 6-person executive board and a recruiting plan to reach 50+ members within two semesters.",
+        "Leading a 6-event UN speaker series, with a goal of raising $2,000+ for global-challenge initiatives."
+      ],
+      "tags": ["Leadership", "International affairs"],
+      "links": []
+    },
+    {
+      "title": "Residential Assistant",
+      "org": "UMass Residential Services",
+      "type": "Leadership",
+      "location": "Amherst, MA",
+      "start": "Jan 2026",
+      "end": "Present",
+      "summary": "Supporting 40+ residents on well-being, conflict mediation and crisis response.",
+      "highlights": [
+        "Work rotating on-call duty shifts and file reports.",
+        "Run 4+ educational and social programs each semester."
+      ],
+      "tags": ["Community", "Leadership"],
+      "links": []
+    },
+    { "title": "Kathak dancer", "org": "ICAS", "type": "Campus", "location": "", "start": "", "end": "", "summary": "Classical Indian dance.", "highlights": [], "tags": [], "links": [] },
+    { "title": "Member", "org": "Alpha Phi Omega", "type": "Campus", "location": "", "start": "", "end": "", "summary": "Co-ed community service fraternity.", "highlights": [], "tags": [], "links": [] },
+    { "title": "Ambassador", "org": "SBS Ambassadors", "type": "Campus", "location": "", "start": "", "end": "", "summary": "Representing the College of Social and Behavioral Sciences.", "highlights": [], "tags": [], "links": [] },
+    { "title": "Dialogue facilitator", "org": "DET", "type": "Campus", "location": "", "start": "", "end": "", "summary": "Facilitating structured dialogue across differences.", "highlights": [], "tags": [], "links": [] },
+    { "title": "Member", "org": "Isenberg Sales Club", "type": "Campus", "location": "", "start": "", "end": "", "summary": "", "highlights": [], "tags": [], "links": [] },
+    { "title": "Player", "org": "Intramural Basketball", "type": "Campus", "location": "", "start": "", "end": "", "summary": "", "highlights": [], "tags": [], "links": [] }
+  ]
+}

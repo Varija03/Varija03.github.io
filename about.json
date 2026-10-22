@@ -1,0 +1,29 @@
+{
+  "photo": "",
+  "bio": "<p>I'm an economics student at UMass Amherst who loves the moment a messy spreadsheet turns into a story someone can act on. I've done that for a research lab studying leadership in college sports, for polling clients in Washington, D.C., for a banking client in New York, and for nonprofits through 180 Degrees Consulting.</p><p>I grew up in India and studied at Welham Girls' School before coming to Amherst. Here, I founded our chapter of the United Nations Association, work as a Residential Assistant, and spend a lot of time thinking about how students can actually change the institutions around them.</p><p>Off the clock you'll find me dancing Kathak, playing intramural basketball, sketching, writing, or looking for the next trail.</p>",
+  "school": "University of Massachusetts Amherst",
+  "programs": "Commonwealth Honors College, iCons Integrated STEM Program",
+  "degree": "B.S. Managerial Economics",
+  "minors": "Business, International Relations",
+  "grad": "Expected May 2028",
+  "honors": ["4.0 GPA", "Dean's List", "Chancellor's Award"],
+  "previous": "Welham Girls' School, India",
+  "coursework": [
+    { "group": "Economics", "courses": "Price Theory, Economic Development" },
+    { "group": "Quantitative", "courses": "Calculus, Statistics, Decision Analysis" },
+    { "group": "Business", "courses": "Finance, Accounting, Management, Project Management" }
+  ],
+  "skills": [
+    { "group": "Data and code", "items": "Python, R, SQL, SAS, SPSS, Microsoft Access" },
+    { "group": "Visualization", "items": "Tableau, Power BI, Excel, data visualization" },
+    { "group": "Consulting", "items": "Research design, competitor analysis, stakeholder management, client presentations, data storytelling" }
+  ],
+  "passions": [
+    { "title": "Kathak", "note": "Classical Indian dance, with ICAS on campus." },
+    { "title": "Basketball", "note": "Intramurals, every season I can." },
+    { "title": "Art and design", "note": "Sketchbooks, color, and anything I can make with my hands." },
+    { "title": "Writing", "note": "Essays, reports, and the occasional open letter." },
+    { "title": "Hiking and adventure", "note": "New trails, new places, mildly questionable plans." }
+  ],
+  "languages": "English, Hindi"
+}

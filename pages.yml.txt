@@ -1,0 +1,586 @@
+# Editing dashboard for Pages CMS (https://app.pagescms.org)
+# Each entry under 'content' becomes a section in the editor sidebar.
+
+media:
+  input: uploads
+  output: /uploads
+content:
+- name: settings
+  label: Site settings
+  type: file
+  path: settings.json
+  format: json
+  fields:
+  - name: name
+    label: Your name
+    type: string
+  - name: tagline
+    label: Headline under your name
+    type: string
+  - name: intro
+    label: Short intro
+    type: text
+  - name: location
+    label: Where you are
+    type: string
+    description: Shown in the live clock, e.g. Amherst, Massachusetts
+  - name: timezone
+    label: Time zone
+    type: string
+    description: e.g. America/New_York or Europe/London
+  - name: email
+    label: Email
+    type: string
+  - name: linkedin
+    label: LinkedIn URL
+    type: string
+  - name: github
+    label: GitHub URL
+    type: string
+  - name: instagram
+    label: Instagram URL
+    type: string
+  - name: resume
+    label: Résumé PDF
+    type: file
+  - name: booking_url
+    label: Booking link (Cal.com or Calendly)
+    type: string
+  - name: booking_note
+    label: Booking note
+    type: text
+  - name: open_to
+    label: What you're open to
+    type: string
+  - name: now
+    label: Right now
+    type: string
+    list: true
+  - name: stats
+    label: Numbers on the home page
+    type: object
+    list: true
+    fields:
+    - name: value
+      type: string
+    - name: label
+      type: string
+  - name: hidden_sections
+    label: Hide these sections
+    type: select
+    list: true
+    options:
+      values:
+      - about
+      - experience
+      - projects
+      - research
+      - portfolio
+      - achievements
+      - writing
+      - creative
+      - shop
+      - contact
+- name: about
+  label: About
+  type: file
+  path: about.json
+  format: json
+  fields:
+  - name: photo
+    label: Portrait photo
+    type: image
+  - name: bio
+    label: Your story
+    type: rich-text
+  - name: school
+    type: string
+  - name: programs
+    type: string
+  - name: degree
+    type: string
+  - name: minors
+    type: string
+  - name: grad
+    label: Graduation
+    type: string
+  - name: honors
+    type: string
+    list: true
+  - name: previous
+    label: Before college
+    type: string
+  - name: coursework
+    type: object
+    list: true
+    fields:
+    - name: group
+      type: string
+    - name: courses
+      type: text
+      description: Separate courses with commas
+  - name: skills
+    type: object
+    list: true
+    fields:
+    - name: group
+      type: string
+    - name: items
+      type: text
+  - name: passions
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: note
+      type: string
+  - name: languages
+    type: string
+- name: timeline
+  label: Timeline
+  type: file
+  path: timeline.json
+  format: json
+  fields:
+  - name: items
+    label: Milestones (oldest first)
+    type: object
+    list: true
+    fields:
+    - name: date
+      type: string
+    - name: title
+      type: string
+    - name: note
+      type: string
+- name: experience
+  label: Experience
+  type: file
+  path: experience.json
+  format: json
+  fields:
+  - name: items
+    label: Roles (newest first)
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Role
+      type: string
+    - name: org
+      label: Organization
+      type: string
+    - name: type
+      type: select
+      options:
+        values:
+        - Work
+        - Leadership
+        - Campus
+    - name: location
+      type: string
+    - name: start
+      type: string
+    - name: end
+      type: string
+    - name: summary
+      type: text
+    - name: highlights
+      type: text
+      list: true
+    - name: tags
+      type: string
+      list: true
+    - name: links
+      label: Links and files
+      type: object
+      list: true
+      fields:
+      - name: label
+        type: string
+      - name: url
+        label: Web link
+        type: string
+      - name: file
+        label: Or upload a file (PDF etc.)
+        type: file
+- name: projects
+  label: Projects
+  type: file
+  path: projects.json
+  format: json
+  fields:
+  - name: items
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: slug
+      label: Web address name
+      type: string
+      description: Short, no spaces. Leave blank to use the title.
+    - name: year
+      type: string
+    - name: category
+      type: select
+      options:
+        values:
+        - Build
+        - Consulting
+        - Data
+        - Design
+        - Policy
+        - Other
+    - name: status
+      type: select
+      options:
+        values:
+        - Complete
+        - In progress
+    - name: context
+      label: For / with
+      type: string
+    - name: summary
+      type: text
+    - name: cover
+      type: image
+    - name: tags
+      type: string
+      list: true
+    - name: body
+      label: Full write-up
+      type: rich-text
+    - name: gallery
+      type: image
+      list: true
+    - name: links
+      label: Links and files
+      type: object
+      list: true
+      fields:
+      - name: label
+        type: string
+      - name: url
+        label: Web link
+        type: string
+      - name: file
+        label: Or upload a file (PDF etc.)
+        type: file
+    - name: featured
+      label: Show on home page
+      type: boolean
+- name: research
+  label: Research and conferences
+  type: file
+  path: research.json
+  format: json
+  fields:
+  - name: items
+    label: Research projects
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: slug
+      type: string
+    - name: role
+      type: string
+    - name: period
+      type: string
+    - name: status
+      type: select
+      options:
+        values:
+        - Ongoing
+        - Complete
+        - Published
+    - name: question
+      type: text
+    - name: methods
+      type: text
+    - name: findings
+      type: text
+    - name: tags
+      type: string
+      list: true
+    - name: cover
+      type: image
+    - name: body
+      type: rich-text
+    - name: links
+      label: Links and files
+      type: object
+      list: true
+      fields:
+      - name: label
+        type: string
+      - name: url
+        label: Web link
+        type: string
+      - name: file
+        label: Or upload a file (PDF etc.)
+        type: file
+  - name: conferences
+    label: Conferences and talks
+    type: object
+    list: true
+    fields:
+    - name: name
+      type: string
+    - name: date
+      type: string
+    - name: location
+      type: string
+    - name: role
+      label: Your role
+      type: string
+    - name: note
+      type: string
+    - name: link
+      type: string
+- name: portfolio
+  label: Portfolio
+  type: file
+  path: portfolio.json
+  format: json
+  fields:
+  - name: items
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: category
+      type: select
+      options:
+        values:
+        - Marketing
+        - Consulting
+        - Data
+        - Design
+        - Writing
+        - Other
+    - name: client
+      type: string
+    - name: year
+      type: string
+    - name: summary
+      type: text
+    - name: cover
+      type: image
+    - name: links
+      label: Links and files
+      type: object
+      list: true
+      fields:
+      - name: label
+        type: string
+      - name: url
+        label: Web link
+        type: string
+      - name: file
+        label: Or upload a file (PDF etc.)
+        type: file
+- name: achievements
+  label: Achievements
+  type: file
+  path: achievements.json
+  format: json
+  fields:
+  - name: items
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: issuer
+      label: From
+      type: string
+    - name: date
+      type: string
+    - name: note
+      type: string
+    - name: link
+      label: Link or certificate URL
+      type: string
+- name: writing
+  label: Writing and ideas
+  type: file
+  path: writing.json
+  format: json
+  fields:
+  - name: posts
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: slug
+      type: string
+    - name: date
+      type: string
+    - name: kind
+      type: select
+      options:
+        values:
+        - Essay
+        - Blog
+        - Report
+        - Letter
+        - Speech
+        - Article
+    - name: summary
+      type: text
+    - name: cover
+      type: image
+    - name: body
+      type: rich-text
+    - name: links
+      label: Links and files
+      type: object
+      list: true
+      fields:
+      - name: label
+        type: string
+      - name: url
+        label: Web link
+        type: string
+      - name: file
+        label: Or upload a file (PDF etc.)
+        type: file
+  - name: ideas
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: note
+      type: text
+    - name: status
+      type: select
+      options:
+        values:
+        - Exploring
+        - Building
+        - Parked
+- name: creative
+  label: Art, photos and travel
+  type: file
+  path: creative.json
+  format: json
+  fields:
+  - name: intro
+    type: string
+  - name: art
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: year
+      type: string
+    - name: medium
+      type: string
+    - name: image
+      type: image
+    - name: note
+      type: string
+  - name: photography
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: place
+      type: string
+    - name: image
+      type: image
+  - name: travel
+    type: object
+    list: true
+    fields:
+    - name: place
+      type: string
+    - name: when
+      type: string
+    - name: story
+      type: rich-text
+    - name: images
+      type: image
+      list: true
+- name: shop
+  label: Shop
+  type: file
+  path: shop.json
+  format: json
+  fields:
+  - name: intro
+    type: text
+  - name: items
+    label: Products
+    type: object
+    list: true
+    fields:
+    - name: name
+      type: string
+    - name: price
+      type: string
+      description: e.g. $25
+    - name: image
+      type: image
+    - name: description
+      type: text
+    - name: buy_url
+      label: Checkout link (Gumroad
+      Square: null
+      Stripe): null
+      type: string
+    - name: status
+      type: select
+      options:
+        values:
+        - Available
+        - Sold out
+        - Coming soon
+- name: pages
+  label: Extra pages
+  type: file
+  path: pages.json
+  format: json
+  fields:
+  - name: items
+    label: Your own pages (they appear in the Index menu)
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+    - name: slug
+      label: Web address name
+      type: string
+    - name: show_in_nav
+      label: Show in Index menu
+      type: boolean
+      default: true
+    - name: intro
+      type: string
+    - name: cover
+      type: image
+    - name: body
+      type: rich-text
+    - name: links
+      label: Links and files
+      type: object
+      list: true
+      fields:
+      - name: label
+        type: string
+      - name: url
+        label: Web link
+        type: string
+      - name: file
+        label: Or upload a file (PDF etc.)
+        type: file

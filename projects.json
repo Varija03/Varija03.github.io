@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "title": "DeyLight Health Foundation website",
+      "slug": "deylight",
+      "year": "2026",
+      "category": "Build",
+      "status": "In progress",
+      "context": "180 Degrees Consulting",
+      "summary": "Leading a 3-analyst team building a new website to grow visibility and fundraising for a Bangladesh maternal and newborn health nonprofit, including a campaign for a simulation training center in Dhaka.",
+      "cover": "",
+      "tags": ["Web", "Nonprofit", "Fundraising"],
+      "body": "<p>DeyLight Health Foundation trains health workers to keep mothers and newborns safe in Bangladesh. As project manager, I'm leading the team that is rebuilding their website so more donors and partners can find them, and so their Dhaka simulation training center campaign has a home.</p><p>Write-up and screenshots coming once the site launches.</p>",
+      "gallery": [],
+      "links": [],
+      "featured": true
+    },
+    {
+      "title": "Community resource app for BUILD Collab",
+      "slug": "build-collab",
+      "year": "2026",
+      "category": "Consulting",
+      "status": "Complete",
+      "context": "180 Degrees Consulting",
+      "summary": "Led 3 analysts through 4 sprints to design a community resource app for 5,000+ users, from surveys and interviews through the final recommendation.",
+      "cover": "",
+      "tags": ["Product design", "User research", "Project management"],
+      "body": "<p>I was the project manager and primary client contact. We surveyed and interviewed the people the app would serve, turned what we heard into requirements, and delivered a final recommendation over four sprints.</p>",
+      "gallery": [],
+      "links": [],
+      "featured": true
+    },
+    {
+      "title": "Banking insights dashboard",
+      "slug": "banking-dashboard",
+      "year": "2025",
+      "category": "Data",
+      "status": "Complete",
+      "context": "EXL, New York",
+      "summary": "Benchmarked competitor dashboards, then designed and built a dashboard for a banking client using AI-assisted development.",
+      "cover": "",
+      "tags": ["Dashboards", "Benchmarking", "Generative AI"],
+      "body": "<p>I started by benchmarking competitor dashboards to see which features and design patterns were worth adopting. Then I designed and built a dashboard for a banking client with AI-assisted development, focused on surfacing insights the client could act on.</p>",
+      "gallery": [],
+      "links": [],
+      "featured": true
+    },
+    {
+      "title": "Campus food pantry",
+      "slug": "food-pantry",
+      "year": "2025",
+      "category": "Policy",
+      "status": "Complete",
+      "context": "CEPA, UMass Amherst",
+      "summary": "Researched campus food insecurity, turned the findings into policy recommendations, and helped launch a pantry serving 500+ students.",
+      "cover": "",
+      "tags": ["Policy", "Food security", "Advocacy"],
+      "body": "",
+      "gallery": [],
+      "links": [],
+      "featured": false
+    },
+    {
+      "title": "Workflow redesign for IFSI",
+      "slug": "ifsi",
+      "year": "2025",
+      "category": "Consulting",
+      "status": "Complete",
+      "context": "180 Degrees Consulting",
+      "summary": "Audited workflows at a nonprofit serving 2,000+ immigrant families and presented a redesign roadmap to its executives.",
+      "cover": "",
+      "tags": ["Operations", "Nonprofit"],
+      "body": "",
+      "gallery": [],
+      "links": [],
+      "featured": false
+    }
+  ]
+}

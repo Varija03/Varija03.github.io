@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "Teaching teamwork through film: research report",
+      "slug": "teamwork-report",
+      "date": "2026",
+      "kind": "Report",
+      "summary": "What happened when 62 students went through a video-based HR curriculum, with the literature, findings and recommendations.",
+      "cover": "",
+      "body": "<p>Add a summary of the report here and attach the PDF below.</p>",
+      "links": []
+    },
+    {
+      "title": "Open letter on student organization budgets",
+      "slug": "rso-open-letter",
+      "date": "2025",
+      "kind": "Letter",
+      "summary": "After interviewing student organizations about their funding barriers, our CEPA team took the findings to decision-makers.",
+      "cover": "",
+      "body": "<p>Add the letter or a link to where it was published.</p>",
+      "links": []
+    }
+  ],
+  "ideas": []
+}

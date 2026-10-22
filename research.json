@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "title": "The glass cliff in college sports",
+      "slug": "glass-cliff",
+      "role": "Research Assistant, CJLS",
+      "period": "2026 to present",
+      "status": "Ongoing",
+      "question": "Are coaches from underrepresented groups more often hired into struggling programs, and how does that shape their careers?",
+      "methods": "Archival data on 1,200+ NCAA Division I coaches across 20 sports and 25+ years; longitudinal modeling of performance and turnover across 300+ programs.",
+      "findings": "",
+      "tags": ["Leadership", "Sports", "Longitudinal data"],
+      "cover": "",
+      "body": "",
+      "links": []
+    },
+    {
+      "title": "Teaching teamwork through film",
+      "slug": "teamwork-film",
+      "role": "Research Assistant, CJLS",
+      "period": "2026",
+      "status": "Complete",
+      "question": "Does a video-based HR curriculum improve students' teamwork skills?",
+      "methods": "Pre and post surveys of 62 students across 12 teamwork competency measures.",
+      "findings": "All 12 measures improved significantly (p < .001). I wrote the full report, including the literature review and recommendations.",
+      "tags": ["Education", "Survey research", "HR"],
+      "cover": "",
+      "body": "",
+      "links": []
+    },
+    {
+      "title": "Budget barriers for student organizations",
+      "slug": "rso-budgets",
+      "role": "Policy and Student Relations Specialist, CEPA",
+      "period": "2025",
+      "status": "Complete",
+      "question": "What stops student organizations from getting and using the funding they need?",
+      "methods": "Interviews with 10 to 15 registered student organizations; mapping barriers that affect 10,000+ students.",
+      "findings": "Findings were published as an open letter to campus decision-makers.",
+      "tags": ["Policy", "Interviews"],
+      "cover": "",
+      "body": "",
+      "links": []
+    },
+    {
+      "title": "How students win policy change",
+      "slug": "student-activism",
+      "role": "CEPA",
+      "period": "Ongoing",
+      "status": "Ongoing",
+      "question": "What strategies help students frame issues, use data and move decision-makers?",
+      "methods": "Case research on student activism at UMass, turned into workshops and toolkits.",
+      "findings": "",
+      "tags": ["Advocacy", "Higher education"],
+      "cover": "",
+      "body": "",
+      "links": []
+    }
+  ],
+  "conferences": []
+}
